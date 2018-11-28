@@ -1,0 +1,35 @@
+package p35;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import java.io.PrintWriter;
+
+public class sadsd {
+	public static void main(String [] args)
+	
+	{
+		 try {
+			FileWriter fw =new FileWriter("test1.txt");
+			PrintWriter pw = PrintWriter(new BufferedWriter(fw));
+			 
+				pw.println("Hello!");
+				pw.println("Goodbye");
+	  	   pw.close();
+	  	   System.out.println("資料已經寫入檔案");
+		 }
+		 
+
+		 catch(IOException e)
+		 {
+			 System.out.println("輸入有錯誤");
+		 }
+		 
+		
+	}
+
+	private static PrintWriter PrintWriter(BufferedWriter bufferedWriter) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

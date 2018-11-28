@@ -1,0 +1,15 @@
+package p32;
+
+
+public class sp {
+	public static void main(String [] args)throws CarException
+	{
+		car car1;
+		car1 =new car();
+		
+			car1.setcar(1245, -10);
+		 
+
+		car1.show();
+	}
+}

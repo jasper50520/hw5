@@ -1,0 +1,4 @@
+package p21;
+
+public class ArrayIndexOutOfBoundException extends Exception {
+}
